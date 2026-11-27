@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en-GB" data-battery="3" data-mood="mid">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SoulHauss | Youth club for grown ups, Leeds</title>
+<meta name="description" content="SoulHauss is a community-led wellbeing hub in Leeds. Soulcials are creative Sunday afternoons for women and trans women, with a guest session, a free hot drink and no pressure.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#F3EFDD">
+<meta property="og:title" content="SoulHauss | Youth club for grown ups, Leeds">
+<meta property="og:description" content="Creative Sunday afternoons in Leeds for women and trans women. A guest session, a free hot drink and no pressure.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mylesdaviddacres95-cmd.github.io/soulhauss/">
+<meta property="og:image" content="https://mylesdaviddacres95-cmd.github.io/soulhauss/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A drawn red front door with a gold sun behind it and the words: Knock twice to come in.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Jost:wght@300..800&family=Caveat:wght@500..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>(function(d){d.classList.add('js');if(!location.hash)d.classList.add('door-closed');try{if(matchMedia('(prefers-reduced-motion: reduce)').matches||/[?&]calm\b/.test(location.search))d.classList.add('calm')}catch(e){}})(document.documentElement);</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://soulhauss.com/#org",
+      "name": "SoulHauss",
+      "url": "https://soulhauss.com/",
+      "description": "A community-led wellbeing hub in Leeds for women and trans women.",
+      "email": "connect@soulhauss.com",
+      "areaServed": "Leeds",
+      "founder": { "@type": "Person", "name": "Shannon Cowan" },
+      "sameAs": ["https://www.instagram.com/soulhauss_/", "https://www.tiktok.com/@soulhauss"]
+    },
+    {
+      "@type": "Event",
+      "name": "Soulcial: LEGO art with Nkem",
+      "startDate": "2026-12-13T15:00:00+00:00",
+      "endDate": "2026-12-13T16:30:00+00:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Cosy Club Leeds",
+        "address": { "@type": "PostalAddress", "streetAddress": "Albion Street", "addressLocality": "Leeds", "postalCode": "LS1 5AA", "addressCountry": "GB" }
+      },
+      "description": "A cosy, social battery friendly afternoon of LEGO art for women and trans women (18+). A hot drink is included with every ticket.",
+      "organizer": { "@id": "https://soulhauss.com/#org" },
+      "offers": [
+        { "@type": "Offer", "name": "General admission", "price": "13.00", "priceCurrency": "GBP", "availability": "https://schema.org/InStock", "url": "https://buytickets.at/soulhauss/2161450" },
+        { "@type": "Offer", "name": "Community discount", "price": "8.00", "priceCurrency": "GBP", "availability": "https://schema.org/InStock", "url": "https://buytickets.at/soulhauss/2161450" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- A slightly rough edge for the drawings, so they read as cut and printed rather than computed -->
+<svg class="defs" width="0" height="0" aria-hidden="true" focusable="false">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#FFF6DA" stop-opacity=".98"/>
+      <stop offset=".5" stop-color="#F6D689" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#E9B454" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
+
+<!-- The front door. Knock twice, like calling for a friend in 2002. -->
+<div class="door" id="door" role="dialog" aria-modal="true" aria-label="Welcome to SoulHauss">
+  <div class="door__scene" id="door-scene">
+    <p class="door__kicker">SoulHauss, Leeds</p>
+    <p class="door__title">Knock twice <em>to come in.</em></p>
+    <div class="doorway" id="doorway" aria-hidden="true">
+      <svg class="door__sun lineart" viewBox="0 0 440 440"><g class="aura"><circle cx="220" cy="220" r="216" fill="url(#aura)"/><circle class="rays" cx="220" cy="220" r="181" fill="none" stroke="#E9B454" stroke-width="37" stroke-dasharray="1.6 14.3" opacity=".8"/><circle cx="220" cy="220" r="151" fill="none" stroke="#E9B454" stroke-width="1.3" opacity=".85"/></g></svg>
+      <svg class="doorway__wall" viewBox="0 0 360 470">
+        <g filter="url(#rough)">
+          <path d="M72 444V132a108 108 0 0 1 216 0v312z" fill="#3A3D1F" stroke="#2A2413" stroke-width="2.8" stroke-linejoin="round"/>
+          <path d="M90 130a90 90 0 0 1 180 0z" fill="#E9B454" stroke="#2A2413" stroke-width="2.4" stroke-linejoin="round" class="fanlight"/>
+          <g stroke="#2A2413" stroke-width="2.4" stroke-linecap="round">
+            <path d="M180 130V40M180 130 102 85M180 130l78-45M180 130l-45-78M180 130l45-78"/>
+          </g>
+          <rect x="90" y="130" width="180" height="300" fill="#2A2413"/>
+          <rect x="52" y="430" width="256" height="17" rx="4" fill="#B9BC8F" stroke="#2A2413" stroke-width="2.4"/>
+          <rect x="34" y="447" width="292" height="17" rx="4" fill="#B9BC8F" stroke="#2A2413" stroke-width="2.4"/>
+          <!-- pot plant, left -->
+          <path d="M40 300c-14 34-12 70 6 104 16-32 12-70-6-104z" fill="#7C8450" stroke="#2A2413" stroke-width="2.4" stroke-linejoin="round"/>
+          <path d="M18 344c0 30 10 48 28 60 2-26-8-46-28-60z" fill="#B9BC8F" stroke="#2A2413" stroke-width="2.4" stroke-linejoin="round"/>
+          <path d="M70 338c4 30-6 50-24 66-4-26 6-48 24-66z" fill="#B9BC8F" stroke="#2A2413" stroke-width="2.4" stroke-linejoin="round"/>
+          <path d="M24 400h44l-6 46H30z" fill="#D08838" stroke="#2A2413" stroke-width="2.4" stroke-linejoin="round"/>
+          <!-- pot plant, right -->
+          <circle cx="318" cy="372" r="26" fill="#7C8450" stroke="#2A2413" stroke-width="2.4"/>
+          <circle cx="300" cy="392" r="16" fill="#B9BC8F" stroke="#2A2413" stroke-width="2.4"/>
+          <circle cx="334" cy="394" r="14" fill="#B9BC8F" stroke="#2A2413" stroke-width="2.4"/>
+          <path d="M296 404h44l-6 42h-32z" fill="#D08838" stroke="#2A2413" stroke-width="2.4" stroke-linejoin="round"/>
+          <!-- postcode plate -->
+          <rect x="298" y="206" width="50" height="30" rx="5" fill="#F3EFDD" stroke="#2A2413" stroke-width="2.2"/>
+        </g>
+        <text x="323" y="227" text-anchor="middle" class="plate">LS1</text>
+        <text x="180" y="460" text-anchor="middle" class="mat">come as you are</text>
+      </svg>
+      <div class="doorway__glow"></div>
+      <div class="doorway__leaf" id="door-leaf">
+        <svg viewBox="0 0 180 300" preserveAspectRatio="none">
+          <rect x="2" y="2" width="176" height="296" fill="#BF4317" stroke="#2A2413" stroke-width="2.8"/>
+          <g fill="#A93A12" stroke="#2A2413" stroke-width="2.2" stroke-linejoin="round" stroke-dasharray="70 5">
+            <rect x="18" y="20" width="62" height="96" rx="4"/>
+            <rect x="100" y="20" width="62" height="96" rx="4"/>
+            <rect x="18" y="172" width="62" height="108" rx="4"/>
+            <rect x="100" y="172" width="62" height="108" rx="4"/>
+          </g>
+          <rect x="55" y="136" width="70" height="17" rx="4" fill="#E9B454" stroke="#2A2413" stroke-width="2.2"/>
+          <path d="M66 144.500h48" stroke="#2A2413" stroke-width="2.2" stroke-linecap="round"/>
+          <circle cx="90" cy="60" r="8" fill="#E9B454" stroke="#2A2413" stroke-width="2.2"/>
+          <circle cx="90" cy="80" r="14" fill="none" stroke="#2A2413" stroke-width="9"/>
+          <circle cx="90" cy="80" r="14" fill="none" stroke="#E9B454" stroke-width="2.8"/>
+          <circle cx="168" cy="150" r="7" fill="#E9B454" stroke="#2A2413" stroke-width="2.2"/>
+        </svg>
+      </div>
+    </div>
+    <button class="door__skip" id="door-skip" type="button">or walk straight in</button>
+  </div>
+  <div class="door__flood" aria-hidden="true"></div>
+  <button class="door__hit" id="door-hit" type="button"><span class="sr-only">Knock on the door</span></button>
+</div>
+
+<div class="grain" id="grain" aria-hidden="true"></div>
+<div class="motes" id="motes" aria-hidden="true"></div>
+
+<header class="top" id="top">
+  <div class="wrap top__in">
+    <div class="top__left">
+      <a class="wordmark" href="#top" aria-label="SoulHauss, back to the top"><img src="img/wordmark.png" alt="SoulHauss" width="510" height="86"></a>
+      <span class="previewtag">Preview</span>
+    </div>
+    <nav class="top__nav" aria-label="On this page">
+      <a href="#afternoon">What happens</a>
+      <a href="#guests">Guests</a>
+      <a href="#rules">House rules</a>
+      <a href="#good-to-know">Good to know</a>
+    </nav>
+    <div class="top__right">
+      <a class="minibat" href="#battery" aria-label="Your social battery. Change it."><i></i><i></i><i></i><i></i><i></i></a>
+      <a class="top__book" href="https://buytickets.at/soulhauss/2161450" rel="noopener">Tickets</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- 1. Opening -->
+  <section class="hero" aria-labelledby="hero-h">
+    <div class="wrap hero__grid">
+      <div class="hero__art"><div class="art" id="hero-art" aria-hidden="true"></div></div>
+      <div class="hero__copy">
+        <h1 class="h1" id="hero-h" tabindex="-1">Youth club for <em>grown ups.</em></h1>
+        <p class="lead">
+          <span class="say say--low">A quiet, cosy Sunday afternoon in Leeds for women and trans women. Sit down, make something, sip something. That is allowed.</span>
+          <span class="say say--mid">SoulHauss is a community-led wellbeing hub in Leeds. Come to a Soulcial: a creative Sunday afternoon for women and trans women, exactly as you are.</span>
+          <span class="say say--high">Creative Sunday afternoons in Leeds for women and trans women. New faces and the kind of good energy that fills your cup.</span>
+        </p>
+        <ul class="promises" role="list"><li>A guest session</li><li>A free hot drink</li><li>Zero pressure</li></ul>
+        <div class="hero__cta">
+          <a class="btn" id="hero-book" href="https://buytickets.at/soulhauss/2161450" rel="noopener">Book your seat</a>
+          <a class="textlink" href="#afternoon">See what happens at a Soulcial</a>
+        </div>
+        <a class="next" href="https://buytickets.at/soulhauss/2161450" rel="noopener">
+          <span class="next__date"><b>13</b><span>Dec</span></span>
+          <span class="next__body">
+            <span class="next__label">Next Soulcial, and the last one at Cosy Club</span>
+            <span class="next__title">LEGO art with Nkem</span>
+            <span class="next__meta">Sunday, 3pm to 4:30pm. Cosy Club, Leeds. From £8.</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Social battery -->
+  <section class="band band--sand bat" id="battery" aria-labelledby="bat-h">
+    <div class="edge" aria-hidden="true"></div>
+    <div class="wrap bat__grid">
+      <div class="bat__intro">
+        <h2 class="h2 reveal" id="bat-h">How's your <em>social battery</em> today?</h2>
+        <p class="lead">Every Soulcial is social battery friendly. So is this page. Tap a circle to say how you feel, and the page will meet you there.</p>
+        <div class="bat__art">
+          <div class="halo" aria-hidden="true"></div>
+          <div class="art breathe" id="portrait" role="img" aria-label="A drawing of a woman with a big afro in profile, eyes closed and peaceful, with a halo of light behind her, a hoop earring, a nose stud and a small moon tattoo on her neck"></div>
+        </div>
+      </div>
+      <div class="bat__play">
+        <div class="battery" id="battery-ui">
+          <div class="battery__body">
+            <span class="battery__cell" style="--c:var(--sage)"></span>
+            <span class="battery__cell" style="--c:var(--sage-deep)"></span>
+            <span class="battery__cell" style="--c:var(--amber)"></span>
+            <span class="battery__cell" style="--c:var(--pop-soft)"></span>
+            <span class="battery__cell" style="--c:var(--pop)"></span>
+          </div>
+          <span class="battery__nub" aria-hidden="true"></span>
+          <input class="battery__input" id="battery-input" type="range" min="1" max="5" step="1" value="3" aria-label="Your social battery, from empty to full" aria-valuetext="Half charged">
+        </div>
+        <div class="bat__ends" aria-hidden="true"><span>Empty</span><span>Full</span></div>
+        <div class="bat__answer" aria-live="polite">
+          <p class="bat__state" id="bat-state">Half charged.</p>
+          <p class="bat__say" id="bat-say">Drift between a quiet craft and a proper chat. Both are the point.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. The afternoon -->
+  <section class="band noon" id="afternoon" aria-labelledby="noon-h">
+    <div class="edge" aria-hidden="true"></div>
+    <div class="wrap">
+      <h2 class="h2 reveal" id="noon-h">One Sunday afternoon, <em>start to finish.</em></h2>
+      <div class="noon__grid">
+        <div class="thread" id="thread" aria-hidden="true">
+          <span class="thread__line"></span>
+          <span class="thread__ink"></span>
+          <span class="thread__now"><i></i><b id="noon-time">3:00pm</b></span>
+        </div>
+        <ol class="noon__steps" id="noon-steps">
+          <li class="step" data-what="Ease in">
+            <div class="step__text">
+              <p class="step__time">3:00</p>
+              <h3 class="step__h">Ease in.</h3>
+              <p>Laid back arts and crafts are already on the table. Settle wherever feels right while the Cosy Club team sorts your drink. It comes free with your ticket.</p>
+            </div>
+            <figure class="print print--slide print--step" style="--r:1.5deg"><img src="img/s05.jpg" alt="A free hot drink: women with hot chocolate at a Soulcial" width="864" height="1080" loading="lazy"></figure>
+          </li>
+          <li class="step" data-what="The guest session">
+            <div class="step__text">
+              <p class="step__time">3:20</p>
+              <h3 class="step__h">The guest session.</h3>
+              <p>Someone who knows their stuff leads something creative or calming. Pottery, crochet, LEGO art, a nervous system reset. Join in at your own pace.</p>
+            </div>
+            <figure class="print print--slide print--step" style="--r:-1.5deg"><img src="img/s03.jpg" alt="Special guests: a guest speaker talking at the table" width="864" height="1080" loading="lazy"></figure>
+          </li>
+          <li class="step" data-what="Goodies to go">
+            <div class="step__text">
+              <p class="step__time">4:15</p>
+              <h3 class="step__h">Goodies to go.</h3>
+              <p>You leave with a few little free gifts, for you or for someone you love, to keep the good feeling going at home.</p>
+            </div>
+            <figure class="print print--slide print--step" style="--r:1.2deg"><img src="img/s09.jpg" alt="Free gifts: wrapped gifts in a basket" width="864" height="1080" loading="lazy"></figure>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <div class="expect">
+      <div class="wrap"><h3 class="h3 expect__h">What to expect, in SoulHauss's own pictures</h3></div>
+      <ul class="strip" role="list">
+        <li><figure class="print print--slide" style="--r:1.6deg"><img src="img/s06.jpg" alt="Calming creative sessions: colouring with felt tips" width="864" height="1080" loading="lazy"></figure></li>
+        <li><figure class="print print--slide" style="--r:-1.4deg"><img src="img/s07.jpg" alt="A social battery friendly environment: a woman colouring quietly" width="864" height="1080" loading="lazy"></figure></li>
+        <li><figure class="print print--slide" style="--r:1deg"><img src="img/s04.jpg" alt="Wellbeing sessions: a Soulcial quiz sheet" width="864" height="1080" loading="lazy"></figure></li>
+        <li><figure class="print print--slide" style="--r:-1.2deg"><img src="img/s08.jpg" alt="Authentic connections: two women hugging" width="864" height="1080" loading="lazy"></figure></li>
+        <li><figure class="print print--slide" style="--r:1.2deg"><img src="img/s10.jpg" alt="A collage of women at different Soulcials" width="864" height="1080" loading="lazy"></figure></li>
+      </ul>
+      <p class="crate__hint wrap" aria-hidden="true">Swipe for more</p>
+    </div>
+  </section>
+
+  <!-- 4. Guests -->
+  <section class="band band--wine crate-sec" id="guests" aria-labelledby="guests-h">
+    <div class="edge" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="crate-sec__head">
+        <h2 class="h2 reveal" id="guests-h">Every Soulcial has <em>a guest.</em></h2>
+        <p class="lead">Local women who know their stuff, from potters to coaches. These are the sessions so far. Tap a card to turn it over.</p>
+      </div>
+    </div>
+    <ul class="crate" id="crate" role="list">
+
+      <li class="sleeve" style="--art:var(--pop); --lab:var(--ink); --labfg:var(--paper)">
+        <button class="sleeve__btn" type="button" aria-pressed="false">
+          <span class="sleeve__inner">
+            <span class="sleeve__face sleeve__front">
+              <span class="sleeve__art">
+                <svg viewBox="0 0 100 60" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                  <rect width="100" height="60" fill="#BF4317"/>
+                  <g>
+                    <circle cx="10" cy="10" r="7" fill="#B9BC8F"/><circle cx="30" cy="10" r="7" fill="#7C8450"/><circle cx="50" cy="10" r="7" fill="#EBD3A4"/><circle cx="70" cy="10" r="7" fill="#F3EFDD"/><circle cx="90" cy="10" r="7" fill="#D08838"/>
+                    <circle cx="10" cy="30" r="7" fill="#F3EFDD"/><circle cx="30" cy="30" r="7" fill="#D08838"/><circle cx="50" cy="30" r="7" fill="#B9BC8F"/><circle cx="70" cy="30" r="7" fill="#7C8450"/><circle cx="90" cy="30" r="7" fill="#EBD3A4"/>
+                    <circle cx="10" cy="50" r="7" fill="#7C8450"/><circle cx="30" cy="50" r="7" fill="#EBD3A4"/><circle cx="50" cy="50" r="7" fill="#F3EFDD"/><circle cx="70" cy="50" r="7" fill="#D08838"/><circle cx="90" cy="50" r="7" fill="#B9BC8F"/>
+                  </g>
+                </svg>
+                <span class="sleeve__sticker">Next up</span>
+              </span>
+              <span class="sleeve__label">
+                <span class="sleeve__cat"><span>SoulHauss network</span><span>SH 006</span></span>
+                <span class="sleeve__title">LEGO art</span>
+                <span class="sleeve__with">with Nkem</span>
+              </span>
+            </span>
+            <span class="sleeve__face sleeve__back">
+              <span class="sleeve__cat"><span>The notes</span><span>SH 006</span></span>
+              <span class="sleeve__when">Sunday 13 December 2026, 3pm to 4:30pm</span>
+              <span class="sleeve__notes">Flower pots, pins, keyrings and jewellery, all built from LEGO. You leave with your own custom builds, just in time for the festive season.</span>
+              <span class="sleeve__find">@nkem on Instagram</span>
+            </span>
+          </span>
+        </button>
+      </li>
+
+      <li class="sleeve" style="--art:var(--paper); --lab:var(--olive); --labfg:var(--paper)">
+        <button class="sleeve__btn" type="button" aria-pressed="false">
+          <span class="sleeve__inner">
+            <span class="sleeve__face sleeve__front">
+              <span class="sleeve__art">
+                <svg viewBox="0 0 100 60" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                  <rect width="100" height="60" fill="#F3EFDD"/>
+                  <g fill="none" stroke-width="6.5" stroke-linejoin="miter">
+                    <polyline stroke="#7C8450" points="-10,12 0,4 10,12 20,4 30,12 40,4 50,12 60,4 70,12 80,4 90,12 100,4 110,12"/>
+                    <polyline stroke="#B9BC8F" points="-10,23 0,15 10,23 20,15 30,23 40,15 50,23 60,15 70,23 80,15 90,23 100,15 110,23"/>
+                    <polyline stroke="#EBD3A4" points="-10,34 0,26 10,34 20,26 30,34 40,26 50,34 60,26 70,34 80,26 90,34 100,26 110,34"/>
+                    <polyline stroke="#D08838" points="-10,45 0,37 10,45 20,37 30,45 40,37 50,45 60,37 70,45 80,37 90,45 100,37 110,45"/>
+                    <polyline stroke="#BF4317" points="-10,56 0,48 10,56 20,48 30,56 40,48 50,56 60,48 70,56 80,48 90,56 100,48 110,56"/>
+                  </g>
+                </svg>
+              </span>
+              <span class="sleeve__label">
+                <span class="sleeve__cat"><span>SoulHauss network</span><span>SH 005</span></span>
+                <span class="sleeve__title">Crochet and chill</span>
+                <span class="sleeve__with">with Keesha, Knitted By Kee</span>
+              </span>
+            </span>
+            <span class="sleeve__face sleeve__back">
+              <span class="sleeve__cat"><span>The notes</span><span>SH 005</span></span>
+              <span class="sleeve__when">Sunday 11 October 2026</span>
+              <span class="sleeve__notes">The basics of crochet, making our own little squares and coasters. Beginner friendly from the first stitch.</span>
+              <span class="sleeve__find">@knittedbykee on Instagram</span>
+            </span>
+          </span>
+        </button>
+      </li>
+
+      <li class="sleeve" style="--art:var(--amber); --lab:var(--paper); --labfg:var(--ink)">
+        <button class="sleeve__btn" type="button" aria-pressed="false">
+          <span class="sleeve__inner">
+            <span class="sleeve__face sleeve__front">
+              <span class="sleeve__art">
+                <svg viewBox="0 0 100 60" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                  <rect width="100" height="60" fill="#D08838"/>
+                  <circle cx="50" cy="60" r="52" fill="#BF4317"/>
+                  <circle cx="50" cy="60" r="42" fill="#EBD3A4"/>
+                  <circle cx="50" cy="60" r="32" fill="#B9BC8F"/>
+                  <circle cx="50" cy="60" r="22" fill="#7C8450"/>
+                  <circle cx="50" cy="60" r="12" fill="#F3EFDD"/>
+                </svg>
+              </span>
+              <span class="sleeve__label">
+                <span class="sleeve__cat"><span>SoulHauss network</span><span>SH 004</span></span>
+                <span class="sleeve__title">Be kind to your mind</span>
+                <span class="sleeve__with">with Virginia, Funky Fresh Coaching</span>
+              </span>
+            </span>
+            <span class="sleeve__face sleeve__back">
+              <span class="sleeve__cat"><span>The notes</span><span>SH 004</span></span>
+              <span class="sleeve__when">Sunday 9 August 2026</span>
+              <span class="sleeve__notes">The power of our inner dialogue, and how we can each show ourselves a little more kindness.</span>
+              <span class="sleeve__find">@funkyfreshcoaching on Instagram</span>
+            </span>
+          </span>
+        </button>
+      </li>
+
+      <li class="sleeve" style="--art:var(--sage); --lab:var(--ink); --labfg:var(--paper)">
+        <button class="sleeve__btn" type="button" aria-pressed="false">
+          <span class="sleeve__inner">
+            <span class="sleeve__face sleeve__front">
+              <span class="sleeve__art">
+                <svg viewBox="0 0 100 60" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                  <rect width="100" height="60" fill="#B9BC8F"/>
+                  <polygon points="-6,60 24,0 38,0 8,60" fill="#BF4317"/>
+                  <polygon points="14,60 44,0 58,0 28,60" fill="#D08838"/>
+                  <polygon points="34,60 64,0 78,0 48,60" fill="#EBD3A4"/>
+                  <polygon points="54,60 84,0 98,0 68,60" fill="#7C8450"/>
+                  <polygon points="74,60 104,0 118,0 88,60" fill="#F3EFDD"/>
+                </svg>
+              </span>
+              <span class="sleeve__label">
+                <span class="sleeve__cat"><span>SoulHauss network</span><span>SH 003</span></span>
+                <span class="sleeve__title">Fitness that feels real</span>
+                <span class="sleeve__with">with Skye, Skye M Fitness</span>
+              </span>
+            </span>
+            <span class="sleeve__face sleeve__back">
+              <span class="sleeve__cat"><span>The notes</span><span>SH 003</span></span>
+              <span class="sleeve__when">Sunday 14 June 2026</span>
+              <span class="sleeve__notes">Practical, supportive guidance for women. Confidence, strength and an approach you can actually keep up.</span>
+              <span class="sleeve__find">@skyemfitness on Instagram</span>
+            </span>
+          </span>
+        </button>
+      </li>
+
+      <li class="sleeve" style="--art:var(--sand); --lab:var(--pop); --labfg:var(--paper)">
+        <button class="sleeve__btn" type="button" aria-pressed="false">
+          <span class="sleeve__inner">
+            <span class="sleeve__face sleeve__front">
+              <span class="sleeve__art">
+                <svg viewBox="0 0 100 60" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                  <rect width="100" height="60" fill="#EBD3A4"/>
+                  <circle cx="64" cy="32" r="46" fill="#D08838"/>
+                  <circle cx="64" cy="32" r="36" fill="#BF4317"/>
+                  <circle cx="64" cy="32" r="26" fill="#B9BC8F"/>
+                  <circle cx="64" cy="32" r="16" fill="#F3EFDD"/>
+                  <circle cx="64" cy="32" r="6" fill="#2A2413"/>
+                </svg>
+              </span>
+              <span class="sleeve__label">
+                <span class="sleeve__cat"><span>SoulHauss network</span><span>SH 002</span></span>
+                <span class="sleeve__title">Pottery and chill</span>
+                <span class="sleeve__with">with Joce, J Clayworks</span>
+              </span>
+            </span>
+            <span class="sleeve__face sleeve__back">
+              <span class="sleeve__cat"><span>The notes</span><span>SH 002</span></span>
+              <span class="sleeve__when">Sunday 14 June 2026</span>
+              <span class="sleeve__notes">Joce shared her tips and techniques so everyone could make something special to take home.</span>
+              <span class="sleeve__find">@j.clayworks on Instagram</span>
+            </span>
+          </span>
+        </button>
+      </li>
+
+      <li class="sleeve" style="--art:var(--sage-deep); --lab:var(--paper); --labfg:var(--ink)">
+        <button class="sleeve__btn" type="button" aria-pressed="false">
+          <span class="sleeve__inner">
+            <span class="sleeve__face sleeve__front">
+              <span class="sleeve__art">
+                <svg viewBox="0 0 100 60" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                  <rect width="100" height="60" fill="#7C8450"/>
+                  <polygon points="50,-22 102,30 50,82 -2,30" fill="#B9BC8F"/>
+                  <polygon points="50,-10 90,30 50,70 10,30" fill="#EBD3A4"/>
+                  <polygon points="50,2 78,30 50,58 22,30" fill="#D08838"/>
+                  <polygon points="50,14 66,30 50,46 34,30" fill="#BF4317"/>
+                  <polygon points="50,24 56,30 50,36 44,30" fill="#F3EFDD"/>
+                </svg>
+              </span>
+              <span class="sleeve__label">
+                <span class="sleeve__cat"><span>SoulHauss network</span><span>SH 001</span></span>
+                <span class="sleeve__title">Diamond art and a reset</span>
+                <span class="sleeve__with">with Shannon, founder of SoulHauss</span>
+              </span>
+            </span>
+            <span class="sleeve__face sleeve__back">
+              <span class="sleeve__cat"><span>The notes</span><span>SH 001</span></span>
+              <span class="sleeve__when">Sunday 26 April 2026</span>
+              <span class="sleeve__notes">A diamond art session, then a step by step workshop to reset your nervous system for the week ahead.</span>
+              <span class="sleeve__find">@soulhauss_ on Instagram</span>
+            </span>
+          </span>
+        </button>
+      </li>
+    </ul>
+    <p class="crate__hint wrap" aria-hidden="true">Swipe for more</p>
+  </section>
+
+  <!-- 5. Everyone -->
+  <section class="band invited" id="invited" aria-labelledby="inv-h">
+    <div class="edge" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="invited__head">
+        <h2 class="h2 reveal" id="inv-h">From <em>all walks</em> of life.</h2>
+        <p class="lead">Women and trans women, 18 and over, of every background and experience. Come on your own or bring someone. There is a seat either way.</p>
+      </div>
+      <div class="procession" id="procession" role="img" aria-label="Six women drawn full length in long dresses, each a different height, shape, age and skin tone, some with tattoos, piercings or a headscarf, each with a halo of light behind her and her eyes peacefully closed"></div>
+    </div>
+  </section>
+
+  <!-- 6. House rules -->
+  <section class="band band--pop rules" id="rules" aria-labelledby="rules-h">
+    <div class="edge" aria-hidden="true"></div>
+    <div class="wrap rules__grid">
+      <div>
+        <h2 class="rules__kicker" id="rules-h">House rules</h2>
+        <ul class="rules__list" role="list">
+          <li class="rule">No fluff.</li>
+          <li class="rule">No judgement.</li>
+          <li class="rule">What's shared here stays here.</li>
+          <li class="rule">Come as you are.</li>
+        </ul>
+      </div>
+      <div class="rules__note">
+        <p>SoulHauss is a community, led by the community, for the community. For real. Just humans being humans, and the occasional brew.</p>
+        <a class="btn btn--ink" href="https://drive.google.com/file/d/1U87a4hfTrTP8uXmrwR9IZz2xdZioe2c7/view" rel="noopener">Read the community guidelines</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Shannon -->
+  <section class="band founder" aria-labelledby="founder-h">
+    <div class="edge" aria-hidden="true"></div>
+    <div class="wrap founder__grid">
+      <figure class="venue-print">
+        <svg class="venue-print__rays" viewBox="0 0 440 440" aria-hidden="true"><circle cx="220" cy="220" r="181" fill="none" stroke="#E9B454" stroke-width="20" stroke-dasharray="2.2 13.8"/></svg>
+        <img src="img/cosy-club.svg" alt="A drawing of the Cosy Club corner where Soulcials happen: a palm in a terracotta urn on a stacked round patterned seat, velvet tub chairs, marble tables with small amber lamps and drinks menus, a bird of paradise plant and a floor lamp" width="1330" height="1412" loading="lazy">
+        <span class="venue-print__glow" style="--x:70.2%;--y:65.2%;--s:12%" aria-hidden="true"></span>
+        <span class="venue-print__glow" style="--x:74.2%;--y:52.5%;--s:7.5%;--d:-1.3s" aria-hidden="true"></span>
+        <span class="venue-print__glow" style="--x:17.6%;--y:52.1%;--s:7%;--d:-2.2s" aria-hidden="true"></span>
+        <span class="venue-print__glow" style="--x:73.3%;--y:35%;--s:11%;--d:-.7s" aria-hidden="true"></span>
+      </figure>
+      <div class="founder__copy">
+        <h2 class="h2 reveal" id="founder-h">A note <em>from Shannon.</em></h2>
+        <div class="founder__note">
+          <p>Hey loves.</p>
+          <p>If you have been craving real community, you have found it. SoulHauss is about bringing back old-school community and reimagining connection in a digital age. It is as simple as that.</p>
+          <p>This is a space to be yourself, unwind, get creative and indulge in a little self care. No fluff and no judgement. Just humans being humans, and the occasional brew, obviously.</p>
+          <p>Come as you are, whatever phase of life you are in and however you are feeling. I cannot wait to see you there.</p>
+        </div>
+        <p class="founder__sig">Shannon x</p>
+        <p class="founder__flag">Draft for Shannon to make her own, written from her posts.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Good to know and tickets -->
+  <section class="band band--sand know" id="good-to-know" aria-labelledby="know-h">
+    <div class="edge" aria-hidden="true"></div>
+    <div class="wrap know__grid">
+      <div class="know__faq">
+        <h2 class="h2 reveal" id="know-h">Good to know.</h2>
+        <details class="q" open>
+          <summary>Who is invited?</summary>
+          <p>Women and trans women, 18 and over, from all walks of life, backgrounds and experiences.</p>
+        </details>
+        <details class="q">
+          <summary>What is a Soulcial?</summary>
+          <p>Think early 2000s youth club, but for adults, rooted in creativity, community, knowledge and wellness. Each one brings together special guests and creative sessions to inspire, fulfil and recharge you.</p>
+        </details>
+        <details class="q">
+          <summary>What does social battery friendly mean?</summary>
+          <p>There is no pressure to socialise in any particular way. Sit quietly and get stuck into something creative, have a deep chat or drift between the two. It is designed with introverts, extroverts and introverted extroverts in mind.</p>
+        </details>
+        <details class="q">
+          <summary>Can I come on my own?</summary>
+          <p>Yes. Show up exactly as you are, on your own or with a friend.</p>
+        </details>
+        <details class="q">
+          <summary>Do I need to be creative?</summary>
+          <p>No. The sessions are led by people who know their stuff and you can join in at your own pace.</p>
+        </details>
+        <details class="q">
+          <summary>Where and when is the next one?</summary>
+          <p>Sunday 13 December 2026, 3pm to 4:30pm, at Cosy Club, Albion Street, Leeds LS1 5AA. It is our last Soulcial at Cosy Club.</p>
+        </details>
+      </div>
+
+      <div class="know__tickets" id="tickets">
+        <h2 class="h3" id="tickets-h">Tickets for Sunday 13 December</h2>
+        <div class="stub">
+          <div class="stub__main"><span class="stub__name">General admission</span><span class="stub__note">A hot drink is included</span></div>
+          <div class="stub__price">£13</div>
+        </div>
+        <div class="stub stub--b">
+          <div class="stub__main"><span class="stub__name">Community discount</span><span class="stub__note">For those who need it. A hot drink is included</span></div>
+          <div class="stub__price">£8</div>
+        </div>
+        <a class="btn btn--wide" id="tickets-book" href="https://buytickets.at/soulhauss/2161450" rel="noopener">Book your seat</a>
+        <p class="small">Booking is handled by Ticket Tailor. Cosy Club, Albion Street, Leeds LS1 5AA.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. What comes next -->
+  <section class="band band--sage nextup" id="whats-next" aria-labelledby="nextup-h">
+    <div class="edge" aria-hidden="true"></div>
+    <div class="wrap nextup__grid">
+      <div>
+        <h2 class="h2 reveal" id="nextup-h">The end of an era. <em>The start of the next one.</em></h2>
+        <p class="lead">Sunday 13 December is the last ever Soulcial at Cosy Club. Something new is coming, and the list hears about it first.</p>
+      </div>
+      <form class="join" id="join" novalidate>
+        <div class="field">
+          <label for="j-name">First name</label>
+          <input id="j-name" name="name" type="text" autocomplete="given-name" required>
+        </div>
+        <div class="field">
+          <label for="j-email">Email</label>
+          <input id="j-email" name="email" type="email" autocomplete="email" inputmode="email" required>
+          <p class="field__err" id="j-err" role="alert" hidden>Please add a name and a valid email address.</p>
+        </div>
+        <label class="check">
+          <input type="checkbox" name="consent" id="j-consent" required>
+          <span>Yes, email me SoulHauss news and dates. I can unsubscribe at any time.</span>
+        </label>
+        <button class="btn btn--ink btn--wide" type="submit">Tell me first</button>
+        <p class="join__done" id="j-done" role="status" hidden>Lovely. In the live site you would now be on the list. This preview does not collect or store anything.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="band band--olive foot">
+  <div class="edge" aria-hidden="true"></div>
+  <div class="wrap foot__grid">
+    <p class="foot__mark"><img src="img/wordmark.png" alt="SoulHauss" width="510" height="86" loading="lazy"></p>
+    <div class="foot__cols">
+      <div>
+        <h2 class="foot__h">Say hello</h2>
+        <p><a href="mailto:connect@soulhauss.com">connect@soulhauss.com</a></p>
+        <p><a href="https://t.me/+jyuRZJOMtBNkZWY0" rel="noopener">Join the community chat</a></p>
+      </div>
+      <div>
+        <h2 class="foot__h">Follow along</h2>
+        <p><a href="https://www.instagram.com/soulhauss_/" rel="noopener">Instagram</a></p>
+        <p><a href="https://www.tiktok.com/@soulhauss" rel="noopener">TikTok</a></p>
+      </div>
+      <div>
+        <h2 class="foot__h">The small print</h2>
+        <p><a href="https://drive.google.com/file/d/1U87a4hfTrTP8uXmrwR9IZz2xdZioe2c7/view" rel="noopener">Community guidelines</a></p>
+        <p>A creative wellbeing hub in Leeds.</p>
+      </div>
+    </div>
+    <p class="foot__preview">Preview for Shannon, not yet live. Photos are from SoulHauss's own Instagram. Design and build by Myles Dacres.</p>
+  </div>
+</footer>
+
+<!-- Thumb bar on phones -->
+<div class="bar" id="bar" aria-hidden="true">
+  <a class="minibat minibat--bar" href="#battery" tabindex="-1" aria-label="Your social battery. Change it."><i></i><i></i><i></i><i></i><i></i></a>
+  <p class="bar__text"><b>Sun 13 Dec, 3pm</b><span>Cosy Club, Leeds. From £8</span></p>
+  <a class="btn btn--bar" href="https://buytickets.at/soulhauss/2161450" rel="noopener" tabindex="-1">Book</a>
+</div>
+
+<script src="js/art.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
